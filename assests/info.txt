@@ -1,0 +1,18 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: PermianSerifTypeface-Bold
+font link: https://www.fontsquirrel.com/fonts/permian-serif
+font author: Ilya Ruderman
+font author site: 
+
+
+icon designer: Gregor Cresnar
+icon designer link: /grega.cresnar
+        
+
+fontColor: {"gradient-0":"#C369C0","gradient-1":"#711A6E"}
+bgColor: {"hex":"transparent"}
+iconColor: {"gradient-0":"#C369C0","gradient-1":"#711A6E"}
+
+      

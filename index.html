@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="Keywords" content="ilad,ilad dev,ilad web,dev,javascript,js,html,css,react.js,fullstackjsdev">
+    <meta name="Description" content="My Dev Website , You Can See My Projects Or Learn More About Me">
+    <link rel="icon" href="assests/profile.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/nav-bar.html"></script>
+    <title>iLaD | Hello World !</title>
+    <meta property="og:title" content="iLaD portfolio"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="assests/profile.png"/>
+    <meta property="og:description" content="I'm ImadEddine Lakhdar
+    Also known as iLaD, living in Casablanca, A 12 years old front end developer, I love building websites and contribute on open source."/>
+    <meta name="theme-color" content="#3c1053">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+</head>
+<body>
+  <button onclick="topFunction()" id="topBtn" title="Go to top">⬆️</button>
+   <script>
+          //Get the button
+          var mybutton = document.getElementById("topBtn");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+</script>
+<div class="navBar" id="Navbar">
+    <img class="nav-logo" src="assests/profile.png" alt="Home" title="Home"> 
+         <ul>
+            <li><a href="index-2.html">Home</a></li>
+            <li><a href="#aboutme">About me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contacts">Contact</a></li>
+                 
+          </ul>
+</div> 
+    <div class="aboutMe"  id="aboutme">
+      <div class="aboutme">
+          <div class="content-aboutme">
+          <h2>I'm ImadEddine Lakhdar</h2>
+          <span></span>
+          <p>Also known as iLaD, living in Casablanca, A 12 years old front end developer, 
+              I love building websites and contribute on open source.</p>
+             <button onclick="window.location ='#contacts'">Hire me</button>
+          </div>
+      </div>
+      <img src="assests/profile.png">
+     </div>         
+<div class="divSkills">
+  <h1 id="text-1">Skills :</h1>
+  <span></span>
+<div class="skills">
+    <div class="s1">
+        <img src="assests/undraw_researching_22gp.svg">
+        <h3>Front end Developer</h3>
+    </div>
+    <div class="s2">
+        <img src="assests/undraw_server_push_vtms.svg">
+        <h3>Design</h3>
+    </div>
+</div>
+</div>
+<div class="divProjects" id="projects">
+    <h1>Projects :</h1>
+    <span></span>
+    <div class="projects">
+    <div class="proj proj1">
+        <img src="assests/ilad-portfolio.svg" class="proj-image">
+        <div class="overlay">
+          <div class="content">
+            <p>
+              Source Code : <a href="https://ilad-web.now.sh/" target="_blank">Link</a> <br>
+            </p>
+          </div>
+        </div>
+      </div>
+<div class="proj proj2">
+    <img src="assests/darkandlight.svg" class="proj-image">
+    <div class="overlay">
+      <div class="content">
+        <p>
+          Source Code : <a href="https://github.com/iLaD08/dark-and-light-mode" target="_blank">Link</a> <br>
+          Example : <a href="https://dark-and-light-mode.now.sh/" target="_blank">Link</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="proj proj3">
+    <img src="assests/index.html" class="proj-image">
+    <div class="overlay">
+      <div class="content">
+        <p>
+         Comming soon !!
+        </p>
+      </div>
+    </div>
+   </div>
+  </div>
+</div>
+<div class="divContact" id="contacts">
+    <h1>Contact :</h1>
+    <span></span>
+    <div class="contacts">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdEWb95WvUVyq36gY6HSZZoSb8noSiEeCvG8utW7gyoKss_KQ/viewform?embedded=true" width="640" height="709" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+    </div>
+</div>
+<footer class="footer-distributed">
+ 
+  <div class="footer-left">
+
+  <h3>iL<span>aD</span></h3>
+
+  <p class="footer-links">
+  <a href="index-2.html">Home</a>
+·
+  <a href="#aboutme">About me</a>
+·
+  <a href="#projects">Projects</a>
+·
+  <a href="#contacts">Contact</a>
+  </p>
+  <p class="footer-company-name">iLaD &copy; 2020</p>
+  </div>
+  <div class="footer-center">
+  <div>
+  <i class="fa fa-envelope" id="email"></i>
+  <p><a href="mailto:support@company.com">contact@gmail.com</a></p>
+  </div>
+  </div>
+  <div class="footer-right">
+  <div class="footer-icons">
+  <a href="https://twitter.com/MrHunter2008" target="_blank"><i class="fa fa-twitter"></i></a>
+  <a href="https://www.instagram.com/ilad.08/" target="_blank"><i class="fa fa-instagram"></i></a>
+  <a href="https://github.com/iLaD08" target="_blank"><i class="fa fa-github"></i></a>
+  </div>
+  </div>
+  </footer>
+</body>
+
+</html>
